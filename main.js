@@ -4,7 +4,7 @@ const memeTitle = document.querySelector(".meme-generator .meme-title");
 const memeAuthor = document.querySelector(".meme-generator .meme-author");
 
 const generateMeme = async () => {
-    const url = 'https://meme-api.com/gimme/wholesomememes';
+    const url = 'https://meme-api.com/gimme/Meme';
     const options = {
         method: 'GET',
     };
